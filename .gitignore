@@ -1,0 +1,141 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__
+tienda/db.sqlite3
+media
+
+# Archivos de respaldo
+*.bak
+
+# Configuración específica de PyCharm
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Configuración específica de AWS
+.idea/**/aws.xml
+
+# Archivos generados
+.idea/**/contentModel.xml
+
+# Archivos sensibles o de alta rotación
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Formato de proyecto basado en archivos
+*.iws
+
+# Archivos generados por IntelliJ
+out/
+
+# Plugin JIRA
+atlassian-ide-plugin.xml
+
+# Python
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Registros de instalación de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Informes de pruebas unitarias / cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule.*
+
+# Archivos SageMath analizados
+*.sage.py
+
+# Entornos
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Documentación de mkdocs
+/site
+
+# Cache de mypy
+.mypy_cache/
+
+# Archivos de Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Archivo de configuración sftp
+sftp-config.json
+
+# Archivos específicos de Package Control
+Package Control.last-run
+Control.ca-list
+Control.ca-bundle
+Control.system-ca-bundle
+GitHub.sublime-settings
+
+# Archivos específicos de Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Ignoramos las migraciones
+# A veces se pregunta: "¿por qué no ignoramos las migraciones?". ¿No tendría sentido crear las migraciones en el servidor y migrarlas de inmediato? Sí, en algunos casos tendría sentido, pero hay un gran problema con eso. Siempre querrás tener las mismas migraciones en tu máquina de desarrollo que en el servidor. Imagina esto: quieres que un campo sea Falso para cada registro.
